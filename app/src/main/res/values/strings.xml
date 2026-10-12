@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">TrackPhone</string>
+    <string name="app_subtitle">Remote Location Finder</string>
+
+    <string name="status_ready">Active &amp; Listening</string>
+    <string name="status_disabled">Tracking Disabled</string>
+    <string name="status_permissions_needed">Permissions Needed</string>
+
+    <string name="tracking_switch_title">Location Tracking Service</string>
+    <string name="tracking_switch_desc">Auto-replies with GPS coordinates via Internet or SMS when trigger code is received</string>
+
+    <!-- TERMS OF SERVICE -->
+    <string name="tos_title">Terms of Service &amp; Privacy Consent</string>
+    <string name="tos_content">Welcome to TrackPhone!\n\nTo help locate your phone if lost or misplaced, TrackPhone accesses your device\'s precise GPS location and transmits it via Internet or SMS ONLY when triggered by your secret keyword from authorized requestors.\n\nBy tapping "I Agree", you explicitly consent to:\n1. Allowing TrackPhone to retrieve your GPS coordinates upon secret trigger.\n2. Transmitting your location via Internet or SMS to authorized requestors.\n3. Displaying notification alerts whenever your location is requested and shared.</string>
+    <string name="tos_agree">I Agree</string>
+    <string name="tos_decline">Decline &amp; Exit</string>
+    <string name="btn_view_tos">View Terms of Service</string>
+
+    <!-- INTERNET & SMS MESSAGING -->
+    <string name="btn_send_internet">Send Request via Internet (Free / No Load)</string>
+    <string name="btn_check_live_feed">Fetch Live Cloud Location</string>
+    <string name="btn_send_sms">Send Request via Cellular SMS</string>
+    <string name="btn_check_internet_reply">Check Internet Response</string>
+    <string name="btn_open_remote_maps">Open Lost Phone Location in Maps</string>
+
+    <!-- THIS DEVICE PHONE NUMBER -->
+    <string name="this_device_number_title">This Device Phone Number / ID</string>
+    <string name="this_device_number_desc">Manually enter this phone\'s number (essential for dual-SIM phones or custom device ID).</string>
+    <string name="this_device_number_hint">e.g. +1234567890</string>
+    <string name="device_security_title">Device Identity &amp; Security Settings</string>
+
+    <!-- TRUSTED PHONE NUMBER -->
+    <string name="trusted_number_title">Trusted Requestor Number (Security)</string>
+    <string name="trusted_number_desc">Only allow location requests from this specific phone number. Leave blank to allow any number.</string>
+    <string name="trusted_number_hint">e.g. +1987654321</string>
+    <string name="save_trusted_number">Save Identity &amp; Security Settings</string>
+    <string name="trusted_number_saved_toast">Device identity and security settings saved!</string>
+
+    <!-- SECRET TRIGGER KEYWORD -->
+    <string name="trigger_keyword_title">Secret Trigger Keyword</string>
+    <string name="trigger_keyword_hint">e.g. #TRACK_NOW</string>
+    <string name="save_keyword">Save Trigger Code</string>
+
+    <!-- REMOTE LOST PHONE TRACKER -->
+    <string name="remote_tracker_title">Locate a Remote Lost Phone</string>
+    <string name="remote_tracker_desc">Send a secret trigger via Internet (Free) or Cellular SMS, or fetch live cloud location updates.</string>
+    <string name="lost_phone_number_hint">Lost Phone Number / ID (e.g. +15551234567)</string>
+    <string name="remote_trigger_keyword_hint">Trigger Keyword (e.g. #TRACK_NOW)</string>
+    <string name="open_sms_app">Open Messages App</string>
+    <string name="sms_sent_toast">Track request SMS sent successfully!</string>
+    <string name="remote_sms_sent_status">SMS location request sent! When the lost phone responds, check your Messages app for the Google Maps location link.</string>
+    <string name="internet_sent_toast">Internet location request sent! Click "Check Internet Response" below.</string>
+
+    <!-- PERMISSIONS -->
+    <string name="permissions_title">Required Permissions</string>
+    <string name="perm_sms_title">Receive &amp; Send SMS (Optional Fallback)</string>
+    <string name="perm_location_title">Access GPS Location</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_missing">Required</string>
+    <string name="grant_permissions_btn">Grant Missing Permissions</string>
+
+    <!-- LOCATION TEST -->
+    <string name="test_location_title">This Device GPS Preview</string>
+    <string name="test_location_btn">Fetch Current Location</string>
+    <string name="fetching_location">Fetching GPS location…</string>
+    <string name="location_not_fetched">No location fetched yet. Tap button above to test.</string>
+    <string name="open_maps_btn">Open in Google Maps</string>
+
+    <!-- INSTRUCTIONS -->
+    <string name="how_it_works_title">How It Works</string>
+    <string name="step_1">1. Manually input your phone number in settings (great for dual-SIM phones).</string>
+    <string name="step_2">2. When internet is on, TrackPhone automatically syncs live location updates to the cloud.</string>
+    <string name="step_3">3. Use "Fetch Live Cloud Location" or "Send via Internet" to locate your phone instantly without using cellular SMS load!</string>
+</resources>
